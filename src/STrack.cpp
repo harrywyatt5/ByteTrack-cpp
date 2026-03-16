@@ -14,7 +14,7 @@ byte_track::STrack::STrack(const Rect<float>& rect, const float& score, const in
     frame_id_(0),
     start_frame_id_(0),
     tracklet_len_(0),
-    original_index_(original_index)
+    original_index_(originalIndex)
 {
 }
 
