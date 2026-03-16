@@ -18,6 +18,7 @@ class Rect
 {
     public:
     Tlwh<T> tlwh;
+    int original_index;
 
     Rect() = default;
     Rect(const T &x, const T &y, const T &width, const T &height);
